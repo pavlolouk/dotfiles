@@ -6,7 +6,7 @@ return {
     table.insert(opts.sections.lualine_x, {
       function()
         local venv_name = ""
-        -- 1. Check VIRTUAL_ENV_PROMPT (clean parentheses if present, e.g. "(myenv)" -> "myenv")
+        -- 1. Check VIRTUAL_ENV_PROMPT
         if vim.env.VIRTUAL_ENV_PROMPT and vim.env.VIRTUAL_ENV_PROMPT ~= "" then
           venv_name = vim.env.VIRTUAL_ENV_PROMPT
         end
@@ -22,7 +22,7 @@ return {
           end
         end
 
-        -- 3. Fallback to standard VIRTUAL_ENV or CONDA path
+        -- 3. Fallback to standard VIRTUAL_ENV
         if venv_name == "" then
           local active_env = vim.env.VIRTUAL_ENV
           if active_env then
