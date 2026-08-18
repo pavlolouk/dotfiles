@@ -3,6 +3,9 @@ return {
   opts = {
     picker = {
       sources = {
+        grep = {
+          args = { "-F" },
+        },
         explorer = {
           hidden = true,
           ignored = true,
