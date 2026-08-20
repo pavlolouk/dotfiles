@@ -1,0 +1,6 @@
+alias hist='history -w && cat ~/.bash_history'
+alias bw='flatpak run --command=bw com.bitwarden.desktop'
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
+alias l='ls -l'
