@@ -8,8 +8,10 @@ config:
     siblings_only: true # Allow duplicate headings across different parent sections
   MD029:
     style: "ordered" # Force ordered lists (1. 2. 3.) over prefix style (1. 1. 1.)
+  MD025: false
+  MD033: false
 
-# Files/folders to ignore globally
+  # Files/folders to ignore globally
 ignores:
   - ".git/**"
   - "node_modules/**"
