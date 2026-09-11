@@ -8,7 +8,9 @@ return {
     config = function()
       local dap = require("dap")
       local dap_python = require("dap-python")
-
+      -- Install debugpy on venv eg. uv pip install debugpy
+      -- Run process with debugpy and exposed debug port
+      -- eg uv run python -m debugpy --listen 5678 --wait-for-client manage.py runserver
       -- Initialize dap-python runner
       local venv = os.getenv("VIRTUAL_ENV")
       local python_path = venv and (venv .. "/bin/python") or "python"
