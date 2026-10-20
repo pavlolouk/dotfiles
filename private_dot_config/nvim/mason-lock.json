@@ -17,7 +17,7 @@
   "ruff": "0.17.1",
   "shfmt": "v3.14.1",
   "stylua": "v2.6.0",
-  "svelte-language-server": "0.18.4",
+  "svelte-language-server": "0.18.5",
   "tailwindcss-language-server": "0.16.0",
   "taplo": "0.10.0",
   "tinymist": "v0.15.10",
