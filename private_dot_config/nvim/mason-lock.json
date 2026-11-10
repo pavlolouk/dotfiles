@@ -1,5 +1,6 @@
 {
   "debugpy": "1.8.22",
+  "django-language-server": "6.1.1",
   "docker-compose-language-service": "1.0.0",
   "dockerfile-language-server": "0.15.0",
   "gitlab-ci-ls": "1.4.0",
@@ -14,13 +15,13 @@
   "prettierd": "0.29.0",
   "pyright": "1.1.414",
   "rstcheck": "6.3.0",
-  "ruff": "0.17.3",
+  "ruff": "0.17.4",
   "shfmt": "v3.14.1",
   "stylua": "v2.6.0",
-  "svelte-language-server": "0.18.5",
+  "svelte-language-server": "0.18.6",
   "tailwindcss-language-server": "0.16.0",
   "taplo": "0.10.0",
-  "tinymist": "v0.15.10",
+  "tinymist": "v0.15.12",
   "vtsls": "0.3.0",
   "yaml-language-server": "2.0.0",
   "yamllint": "1.38.0"
