@@ -1,4 +1,5 @@
 {
+  "astro-language-server": "2.17.3",
   "debugpy": "1.8.22",
   "django-language-server": "6.1.1",
   "docker-compose-language-service": "1.0.0",
